@@ -117,4 +117,6 @@ type User struct {
 	// Description:
 	//   Placeholder for exchange-specific extensions to OpenRTB.
 	Ext json.RawMessage `json:"ext,omitempty"`
+	
+	Eids []Eid `json:"eids,omitempty"`
 }
